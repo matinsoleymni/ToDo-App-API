@@ -1,18 +1,16 @@
 // API data's
 const api = {
-    tasks : "https://domin.com/api/tasks" , // not real ( call me to get reals )
-    tasks : "https://domin.com/api/users" , // not real ( call me to get reals )
+    tasks : "https://blokchainology.com/api/api/v1/tasks/" , // not real ( call me to get reals )
 }
 
 // Get User Tasks 
 const data = {
-    user_id: 1
+    user_id: 7
 }
 let result  = fetch(api.tasks , { 
     method: "POST",
     body: JSON.stringify(data)
-}) 
-result.then(res => console.log(res))
+}).then(res => res.json()).then(data => console.log(data))
 // END
 
 /* *************************************** */
@@ -27,8 +25,7 @@ const data2 = {
 let result2  = fetch(api.tasks , { 
     method: "POST",
     body: JSON.stringify(data2)
-}) 
-result2.then(res => console.log(res))
+}).then(res => res.json()).then(data => console.log(data))
 // END
 
 /* *************************************** */
@@ -44,8 +41,7 @@ const data3 = {
 let result3  = fetch(api.tasks , { 
     method: "PUT",
     body: JSON.stringify(data3)
-}) 
-result3.then(res => console.log(res))
+}).then(res => res.json()).then(data => console.log(data))
 // END
 
 /* *************************************** */
@@ -57,8 +53,7 @@ const data4 = {
 let result4  = fetch(api.tasks , { 
     method: "DELETE",
     body: JSON.stringify(data4)
-}) 
-result4.then(res => console.log(res))
+}).then(res => res.json()).then(data => console.log(data))
 // END
 
 /* *************************************** */
