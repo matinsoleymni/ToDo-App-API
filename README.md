@@ -12,7 +12,7 @@
 
 | Scope     | Skills                                                                           |
 |:---------:|:--------------------------------------------------------------------------------:|
-| use     | <img src="https://skillicons.dev/icons?i=php,js,ts,py,vue&perline=5">|
+| use     | <img src="https://skillicons.dev/icons?i=php,js,ts,py,vue,jquery&perline=6">|
 
  
 <hr>
