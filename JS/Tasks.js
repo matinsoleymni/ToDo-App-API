@@ -1,6 +1,6 @@
 // API data's
 const api = {
-    tasks : "https://blokchainology.com/api/api/v1/tasks/" , // not real ( call me to get reals )
+    tasks : "https://blokchainology.com/api/tasks/" , // not real ( call me to get reals )
 }
 
 // Get User Tasks 
