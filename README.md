@@ -10,6 +10,13 @@
  
 <hr>
 
+| Scope     | Skills                                                                           |
+|:---------:|:--------------------------------------------------------------------------------:|
+| use     | <img src="https://skillicons.dev/icons?i=php,js,ts,py,vue&perline=5">|
+
+ 
+<hr>
+
 <br>
 
 # Documents
